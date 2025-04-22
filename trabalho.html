@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multispace</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: #3b5ba9;
+      color: white;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo-circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: white;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .main-container {
+      display: flex;
+      flex: 1;
+    }
+    aside {
+      background: #e271d5;
+      width: 200px;
+      padding: 20px;
+    }
+    aside ul {
+      list-style: none;
+    }
+    aside ul li {
+      margin-bottom: 15px;
+      color: white;
+      font-weight: bold;
+    }
+    .content {
+      flex: 1;
+      background: #a94cd3;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .buy-buttons button {
+      margin: 5px 0;
+      padding: 10px;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .card { background: #4CAF50; color: white; }
+    .boleto { background: #FF9800; color: white; }
+    .pix { background: #00BFA6; color: white; }
+    footer {
+      background: #3b5ba9;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <div class="logo-circle">Logo</div>
+      <h1>Multispace</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="main-container">
+    <aside>
+      <ul>
+        <li>Desenhos Animados</li>
+        <li>Aventura</li>
+        <li>Infantil</li>
+      </ul>
+    </aside>
+    <div class="content">
+      
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Charlie+Brown" alt="A Turma do Charlie Brown">
+      <h3>A Turma do Charlie Brown</h3>
+      <p>R$ 24.90</p>
+      <div class="buy-buttons">
+        <button class="card">Cartão</button>
+        <button class="boleto">Boleto</button>
+        <button class="pix">PIX</button>
+      </div>
+    </div>
+    
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Picapau+Amarelo" alt="Sítio do Picapau Amarelo">
+      <h3>Sítio do Picapau Amarelo</h3>
+      <p>R$ 31.80</p>
+      <div class="buy-buttons">
+        <button class="card">Cartão</button>
+        <button class="boleto">Boleto</button>
+        <button class="pix">PIX</button>
+      </div>
+    </div>
+    
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Dragao" alt="Como Treinar Seu Dragão">
+      <h3>Como Treinar Seu Dragão</h3>
+      <p>R$ 38.70</p>
+      <div class="buy-buttons">
+        <button class="card">Cartão</button>
+        <button class="boleto">Boleto</button>
+        <button class="pix">PIX</button>
+      </div>
+    </div>
+    
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Toy+Story" alt="Toy Story">
+      <h3>Toy Story</h3>
+      <p>R$ 45.60</p>
+      <div class="buy-buttons">
+        <button class="card">Cartão</button>
+        <button class="boleto">Boleto</button>
+        <button class="pix">PIX</button>
+      </div>
+    </div>
+    
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Magicos" alt="Padrinhos Mágicos">
+      <h3>Padrinhos Mágicos</h3>
+      <p>R$ 52.50</p>
+      <div class="buy-buttons">
+        <button class="card">Cartão</button>
+        <button class="boleto">Boleto</button>
+        <button class="pix">PIX</button>
+      </div>
+    </div>
+    
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Homem-Aranha" alt="Homem-Aranha">
+      <h3>Homem-Aranha</h3>
+      <p>R$ 59.40</p>
+      <div class="buy-buttons">
+        <button class="card">Cartão</button>
+        <button class="boleto">Boleto</button>
+        <button class="pix">PIX</button>
+      </div>
+    </div>
+    
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Aventura" alt="Hora de Aventura">
+      <h3>Hora de Aventura</h3>
+      <p>R$ 66.30</p>
+      <div class="buy-buttons">
+        <button class="card">Cartão</button>
+        <button class="boleto">Boleto</button>
+        <button class="pix">PIX</button>
+      </div>
+    </div>
+    
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Transilvania" alt="Hotel Transilvânia">
+      <h3>Hotel Transilvânia</h3>
+      <p>R$ 73.20</p>
+      <div class="buy-buttons">
+        <button class="card">Cartão</button>
+        <button class="boleto">Boleto</button>
+        <button class="pix">PIX</button>
+      </div>
+    </div>
+    
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Panda" alt="Kung-Fu Panda">
+      <h3>Kung-Fu Panda</h3>
+      <p>R$ 80.10</p>
+      <div class="buy-buttons">
+        <button class="card">Cartão</button>
+        <button class="boleto">Boleto</button>
+        <button class="pix">PIX</button>
+      </div>
+    </div>
+    
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Mia" alt="O Mundo de Mia">
+      <h3>O Mundo de Mia</h3>
+      <p>R$ 87.00</p>
+      <div class="buy-buttons">
+        <button class="card">Cartão</button>
+        <button class="boleto">Boleto</button>
+        <button class="pix">PIX</button>
+      </div>
+    </div>
+    
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Sofia" alt="Princesinha Sofia">
+      <h3>Princesinha Sofia</h3>
+      <p>R$ 93.90</p>
+      <div class="buy-buttons">
+        <button class="card">Cartão</button>
+        <button class="boleto">Boleto</button>
+        <button class="pix">PIX</button>
+      </div>
+    </div>
+    
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Scooby-Doo" alt="Scooby-Doo">
+      <h3>Scooby-Doo</h3>
+      <p>R$ 100.80</p>
+      <div class="buy-buttons">
+        <button class="card">Cartão</button>
+        <button class="boleto">Boleto</button>
+        <button class="pix">PIX</button>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Multispace. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
