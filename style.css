@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(190, 53, 224);
+}
+
+.elemento_mae{
+    background-color: aqua;
+    height: 600px;
+    display: flex; /* declarar o flexbox */
+    flex-direction: row; /* alinhamento por linha ou horizontal */
+    justify-content: space-around; /* centralizcao dos elementos */
+    align-items: baseline; /* posicionamento perpendicular */
+}
+
+.elemento_filho_1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(30, 113, 223);
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+.elemento_filho_2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(30, 113, 223);
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+.elemento_filho_3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(30, 113, 223);
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
