@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(77, 177, 243);
+    background-color: rgb(81, 185, 245);
 }
 
 
@@ -10,7 +10,7 @@ header{
     
 
 .container_mae{
-    background-color: rgb(130, 62, 209);
+    background-color: rgb(140, 69, 221);
     /* height: 300px; */
     /* width: 300px; */
     display: flex;
@@ -20,7 +20,7 @@ header{
 }
 .card{
     /* border: red solid 2px; */
-    background-color: rgb(214, 125, 241);
+    background-color: rgb(196, 85, 230);
     height: auto;
     width: 300px;
     margin: 10px;
@@ -40,17 +40,17 @@ header{
 }
 
 .botao{
-    border: 2px orangered solid;
+    border: 2px rgb(202, 16, 128) solid;
     border-radius: 5px;
     width: 200px;
-    color: orangered;
+    color: rgb(28, 27, 7);
     font-size: large;
     
 }
 /* muda cor do botao e do texto */
 .botao:hover{
-    color: rgb(108, 229, 233);
-    background-color: orangered;
+    color: rgb(17, 93, 95);
+    background-color: rgb(95, 34, 12);
 }
 a{
     text-decoration: none;
@@ -64,5 +64,32 @@ a{
     width: auto;
 }
 .logo{
-    width: 300px;
+    width: 150px;
 }
+footer{
+    
+    background-color: rgb(199, 52, 215);
+}
+body{
+    display: grid;
+    grid-template-areas: 
+        "cabe cabe"
+        "brac corp"
+        "pern pern";
+    grid-template-columns: 180px auto;
+    grid-template-rows: 150px 500px 150px;
+    background-color: rgb(81, 185, 245);
+
+}
+
+li{
+    /* border: blue 2px solid; */
+    /* display: inline; */
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+
+}
+
+
