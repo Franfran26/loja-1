@@ -1,0 +1,68 @@
+header{
+    background-color: rgb(77, 177, 243);
+}
+
+
+
+.main{
+    background-color: blueviolet;
+}
+    
+
+.container_mae{
+    background-color: rgb(130, 62, 209);
+    /* height: 300px; */
+    /* width: 300px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    /* border: red solid 2px; */
+    background-color: rgb(214, 125, 241);
+    height: auto;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card:hover{
+    box-shadow: inset 2px 2px 2px 1px rgba(m0, 0, 0, 0.2);
+}
+
+.botao{
+    border: 2px orangered solid;
+    border-radius: 5px;
+    width: 200px;
+    color: orangered;
+    font-size: large;
+    
+}
+/* muda cor do botao e do texto */
+.botao:hover{
+    color: rgb(108, 229, 233);
+    background-color: orangered;
+}
+a{
+    text-decoration: none;
+}
+.item_venda{
+    height: 180px;
+
+}
+.card img{
+    max-height: 300px;
+    width: auto;
+}
+.logo{
+    width: 300px;
+}
