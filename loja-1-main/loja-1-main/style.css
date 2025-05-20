@@ -1,95 +1,40 @@
-header{
-    background-color: rgb(149, 216, 255);
-}
-
-
-
-.main{
-    background-color: blueviolet;
-}
-    
-
-.container_mae{
-    background-color: rgb(108, 41, 184);
-    /* height: 300px; */
-    /* width: 300px; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.card{
-    /* border: red solid 2px; */
-    background-color: rgb(208, 143, 252);
-    height: auto;
-    width: 300px;
-    margin: 10px;
-    padding: 10px;
-    color: black;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    flex-direction: column;
-}
-
-.card:hover{
-    box-shadow: inset 2px 2px 2px 1px rgba(m0, 0, 0, 0.2);
-}
-
-.botao{
-    border: 2px rgb(202, 16, 128) solid;
-    border-radius: 5px;
-    width: 200px;
-    color: rgb(28, 27, 7);
-    font-size: large;
-    
-}
-/* muda cor do botao e do texto */
-.botao:hover{
-    color: rgb(17, 93, 95);
-    background-color: rgb(95, 34, 12);
-}
-a{
-    text-decoration: none;
-}
-.item_venda{
-    height: 180px;
-
-}
-.card img{
-    max-height: 300px;
-    width: auto;
-}
-.logo{
-    width: 165px;
-}
-footer{
-    
-    background-color: rgb(199, 52, 215);
-}
 body{
-    display: grid;
-    grid-template-areas: 
-        "cabe cabe"
-        "brac corp"
-        "pern pern";
-    grid-template-columns: 180px auto;
-    grid-template-rows: 150px 500px 150px;
-    background-color: rgb(149, 220, 253);
-
+    background-color: rgb(190, 53, 224);
 }
 
-li{
-    /* border: blue 2px solid; */
-    /* display: inline; */
-    margin: 10px;
+.elemento_mae{
+    background-color: aqua;
+    height: 600px;
+    display: flex; /* declarar o flexbox */
+    flex-direction: row; /* alinhamento por linha ou horizontal */
+    justify-content: space-around; /* centralizcao dos elementos */
+    align-items: baseline; /* posicionamento perpendicular */
 }
-a{
-    text-decoration: none;
 
+.elemento_filho_1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(30, 113, 223);
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
 }
-
-
+.elemento_filho_2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(30, 113, 223);
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+.elemento_filho_3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(30, 113, 223);
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+}

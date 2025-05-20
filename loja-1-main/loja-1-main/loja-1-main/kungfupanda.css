@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 300px;
+    background-color:  rgb(48, 101, 218);
+}
+
+.logo {
+    width: 165px;
+    height: auto;
+    
+
+}
+main{
+    background-color: blueviolet;
+}
+ img{
+    width: 400px;
+    
+
+}
+
+footer{
+    height: 300px;
+    background-color: blue;
+}
