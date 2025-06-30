@@ -1,0 +1,97 @@
+header{
+    background-color: rgb(23, 107, 218);
+    margin:0%;
+}
+
+
+
+.main{
+    background-color: blueviolet;
+}
+    
+
+.container_mae{
+    background-color: rgb(101, 19, 196);
+    /* height: 300px; */
+    /* width: 300px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    /* border: red solid 2px; */
+    background-color: rgb(208, 143, 252);
+    height: auto;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card:hover{
+    box-shadow: inset 2px 2px 2px 1px rgba(m0, 0, 0, 0.2);
+}
+
+.botao{
+    border: 2px rgb(202, 16, 128) solid;
+    border-radius: 5px;
+    width: 200px;
+    color: rgb(28, 27, 7);
+    font-size: large;
+    
+}
+/* muda cor do botao e do texto */
+.botao:hover{
+    color: rgb(49, 223, 107);
+    background-color: rgb(95, 34, 12);
+}
+a{
+    text-decoration: none;
+}
+.item_venda{
+    height: 180px;
+
+}
+.card img{
+    max-height: 300px;
+    width: auto;
+}
+.logo{
+    width: 165px;
+    
+}
+footer{
+    
+    background-color: rgb(83, 15, 90);
+}
+body{
+    display: grid;
+    grid-template-areas: 
+        "cabe cabe"
+        "brac corp"
+        "pern pern";
+    grid-template-columns: 180px auto;
+    grid-template-rows: 150px 500px 150px;
+    background-color: rgb(48, 101, 218)
+
+}
+
+li{
+    /* border: blue 2px solid; */
+    /* display: inline; */
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+
+}
+
+
