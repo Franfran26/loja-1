@@ -47,10 +47,10 @@ footer{
 
 .botao{
     border: 2px rgb(79, 63, 224) solid;
-    border-radius: 10px;
-    width: 200px;
+    border-radius: 20px;
+    width: 110px;
     color: rgb(28, 27, 7);
-    font-size: large;
+    font-size: 20px;
     
 }
 /* muda cor do botao e do texto */
